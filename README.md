@@ -30,6 +30,12 @@ Le boitier envoie des équivalents claviers, pour éviter de parasiter le compor
 Les boutons sont connectés aux entrées du µc et mis à la terre.  
 L'interrupteur et le bouton **bootcode**, sont connectés à  la pin **3V3** du µc plutôt que le **GND** (aucune raison particulière, une reprise de code existant sans harmonisation)
 
-Le dossier contient les fichiers de découpe laser du boitier. La boîte à été réalisée grâce au plugin de générateur de boites[^1] pour Inskape, de Thierry, du fablab de Lannion (grand merci pour ce fabuleux plugin fort utile)
+Le dossier _**lasercut**_ contient les fichiers de découpe laser du boitier (en laserworks, dxf et pdf). La boîte à été réalisée grâce au plugin de générateur de boites[^1] pour Inskape, de Thierry, du fablab de Lannion (grand merci pour ce fabuleux plugin fort utile).
+
+Le dossier circuitpython, contient le code pour un **RP2040 pico zero** de _Waveshare_ (petit gabarit, pas cher). Il s'adaptera facilement à tout autre pico (il suffit de faire correspondre les noms des io et les numéros).
+
+La Police de caractère du nom, est la **Thirsty Soft**[^2] Black de Yellow Design Studio. La police Single Line est la **SLF Architect**[^3].
 
 [^1]: le plugin [générateur de boites](https://wiki.fablab-lannion.org/index.php?title=Generateur_de_boites)
+[^2]: [Yellow Design Studio](https://yellowdesignstudio.com/collections/thirsty-soft)
+[^3]: chez [Singlelinefonts](https://www.singlelinefonts.com/products/slf-architect-for-inkscape-and-fontlab-pad)
